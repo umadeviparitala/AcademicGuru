@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>REGISTER</title>
+<style>
+.container {
+	padding: 12px;
+	background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+	width: 30%;
+	padding: 15px;
+	margin: 5px 0 0px 0;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+	background-color: #EEE8AA;
+	outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+	border: 1px solid #4CAF50;
+	margin-bottom: 25px;
+}
+</style>
+</head>
+<body>
+	<header id="gtco-header" class="gtco-full gtco-full-md" role="banner">
+		<form action="RegisterServlet" method="post">
+			<center>
+				<div class="container">
+					<h1>
+						<font face="Chiller">ACADEMIC GURU </font>&nbsp;REGISTRATION FORM
+					</h1>
+					<input type="text" name="firstName" placeholder="Enter First Name"
+						required="required"></br></br> <input type="text" name="lastName"
+						placeholder="Enter Last Name" required="required"></br></br> <input
+						type="text" name="userName" placeholder="Enter Username"
+						required="required"> </br></br> <input type="text" name="mailId"
+						placeholder="Enter Email Id" required="required"> </br></br> <input
+						type="password" name="password" placeholder="Enter Password"
+						required="required"></br>
+					</br>
+					<input type="submit" value="Register">&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="Login.html" class="signup-image-link">Already a member</a>
+
+					<div class="signup-image">
+						<figure>
+							<img src="images/signup-image.jpg" alt="sign up image">
+						</figure>
+					</div>
+				</div>
+			</center>
+
+		</form>
+	</header>
+
+</body>
+</html>
+
